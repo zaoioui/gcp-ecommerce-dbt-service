@@ -1,0 +1,30 @@
+[0m21:45:17.269236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E0A6017F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E0C5D7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E0C5D7B10>]}
+
+
+============================== 21:45:17.274039 | a4caa924-f6c3-44f6-b406-7d68eb87c54a ==============================
+[0m21:45:17.274039 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:45:17.274992 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\mmeri\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init ecommerce_dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:45:17.497440 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\mmeri\.dbt
+[0m21:45:17.513513 [debug] [MainThread]: Starter project path: C:\Users\mmeri\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\dbt\include\starter_project
+[0m21:45:17.574952 [info ] [MainThread]: 
+Your new dbt project "ecommerce_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:45:17.576038 [info ] [MainThread]: Setting up your profile.
+[0m21:46:48.563836 [info ] [MainThread]: Profile ecommerce_dbt written to C:\Users\mmeri\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:46:48.579487 [debug] [MainThread]: Command `dbt init` succeeded at 21:46:48.579230 after 91.52 seconds
+[0m21:46:48.580038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E1DF32B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E0C4CDC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E1DD28270>]}
+[0m21:46:48.580446 [debug] [MainThread]: Flushing usage events
+[0m21:46:49.343912 [debug] [MainThread]: An error was encountered while trying to flush usage events

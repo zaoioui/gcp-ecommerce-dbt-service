@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: eternal-ship-491021-c4
+    schema: ecommerce_dwh
+    tables:
+      - name: raw_orders
+      - name: raw_order_items
+      - name: raw_customers
+      - name: raw_products
+      - name: raw_payments
+      - name: raw_categories

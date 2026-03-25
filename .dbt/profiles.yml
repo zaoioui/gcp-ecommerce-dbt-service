@@ -1,0 +1,12 @@
+ecommerce_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: eternal-ship-491021-c4
+      dataset: ecommerce_dwh
+      threads: 1
+      job_execution_timeout_seconds: 300
+      location: europe-west1
+      keyfile: /secrets/dbt-service-keyfile
